@@ -1,6 +1,6 @@
 <script>
     export default {
-        name: 'hello',
+        name: 'DatePickerTest',
         data () {
             return {
                 msg: 'hello world about iview'
@@ -15,19 +15,6 @@
         <Tooltip content="这里是提示文字">
             当鼠标经过这段文字时，会显示一个气泡框
         </Tooltip>
-
-        <template>
-            <Button>Default</Button>
-            <Button type="primary">Primary</Button>
-            <Button type="ghost">Ghost</Button>
-            <Button type="dashed">Dashed</Button>
-            <Button type="text">Text</Button>
-            <br><br>
-            <Button type="info">Info</Button>
-            <Button type="success">Success</Button>
-            <Button type="warning">Warning</Button>
-            <Button type="error">Error</Button>
-        </template>
 
         <template>
             <Row>

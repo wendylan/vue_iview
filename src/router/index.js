@@ -2,21 +2,33 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import App from '../App'
-import HelloWorld from '@/components/HelloWorld'
-import Hello from '@/components/hello'
+import GridTest from '@/components/GridTest'
+import DatePickerTest from '@/components/DatePickerTest'
+import LayoutTest from '@/components/LayoutTest'
+import ButtonTest from '@/components/ButtonTest'
 
 Vue.use(VueRouter)
 
 const routes = [
 	{
 		path: '/',
-		name: 'HelloWorld',
-		component: HelloWorld
+		name: 'GridTest',
+		component: GridTest
     },
     {
-    	path:'/hello',
-    	name: 'hello',
-    	component: Hello
+    	path:'/DatePickerTest',
+    	name: 'DatePickerTest',
+    	component: DatePickerTest
+    },
+    {
+        path:'/LayoutTest',
+        name: 'LayoutTest',
+        component: LayoutTest
+    },
+    {
+        path: '/ButtonTest',
+        name: 'ButtonTest',
+        component: ButtonTest
     }
 ]
 
